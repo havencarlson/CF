@@ -7,7 +7,7 @@ on:
 jobs:
   build-documentation:
     name: Build and deploy cFS documents
-    uses: nasa/cFS/.github/workflows/build-deploy-doc.yml@main
+    uses: havencarlson/cFS/.github/workflows/build-deploy-doc.yml@workflow-ubuntu-update
     with:
       target: "[\"cf-usersguide\"]"
       app-name: cf

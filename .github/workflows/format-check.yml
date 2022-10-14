@@ -8,5 +8,5 @@ on:
 jobs:
   format-check:
     name: Run format check
-    uses: nasa/cFS/.github/workflows/format-check.yml@main
+    uses: havencarlson/cFS/.github/workflows/format-check.yml@workflow-ubuntu-update
     

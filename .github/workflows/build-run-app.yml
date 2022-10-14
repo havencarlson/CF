@@ -7,4 +7,4 @@ on:
 jobs:
   build-run:
     name: Build and run with startup msg verification
-    uses: nasa/cFS/.github/workflows/build-run-app.yml@main
+    uses: havencarlson/cFS/.github/workflows/build-run-app.yml@workflow-ubuntu-update

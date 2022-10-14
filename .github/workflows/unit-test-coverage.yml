@@ -7,4 +7,4 @@ on:
 jobs:
   unit-test-coverage:
     name: Run unit test and coverage
-    uses: nasa/cFS/.github/workflows/unit-test-coverage.yml@main
+    uses: havencarlson/cFS/.github/workflows/unit-test-coverage.yml@workflow-ubuntu-update
